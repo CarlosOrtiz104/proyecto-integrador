@@ -1,0 +1,104 @@
+* {
+  box-sizing: border-box;
+}
+
+.cabecera {
+  display: flex;
+  flex-wrap: wrap;
+  background-color: #337ab7;
+  height: 152px;
+
+}
+.piePag {
+  display: flex;
+  background-color: #66afe9;
+    justify-content: center;
+}
+
+.listaRedes {
+  margin: 20px 0;
+  padding: 0;
+  display: flex;
+  flex-wrap: wrap;
+
+}
+
+.listaRedes li {
+  color: white;
+  margin: 0 12px;
+  list-style-type: none;
+}
+
+.input-cris {
+  margin-left: 15%;
+  display: block;
+  width: 70%;
+  height: 50px;
+  padding: 6px 12px;
+  font-size: 14px;
+  line-height: 1.42857143;
+  color: #555;
+  background-color: #fff;
+  box-shadow: none;
+  border: none;
+  border-bottom: 1px solid #555;
+}
+
+.input-cris:hover {
+  border-color: #66afe9;
+}
+
+.form-group {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  margin-bottom: 15px;
+}
+
+.labelForm {
+  text-align: center;
+}
+
+h3 {
+  text-align: center;
+  margin-bottom: 40px;
+}
+
+.tituloPrincipal {
+  color: white;
+  text-align: center;
+  width: 100%;
+  line-height: 30px;
+}
+
+.navegador {
+  display: flex;
+  flex-wrap: wrap;
+  padding: 0;
+  flex-direction: row;
+  list-style-type: none;
+}
+
+
+.navegador li {
+  margin: 4px 0;
+  height: 40px;
+  text-align: center;
+  width: 49%;
+  background-color: #66afe9;
+}
+
+.navegador li:nth-child(even) {
+  margin-left: 2%;
+}
+
+.navegador li a {
+  color: white;
+  font-weight: bold;
+  line-height: 40px;
+  padding: 8px 25%;
+}
+
+nav {
+  width: 100%;
+}
