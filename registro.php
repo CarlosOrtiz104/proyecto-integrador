@@ -10,7 +10,7 @@
   <body>
     <div class="container">
       <header class="cabecera">
-        <h2 class="tituloPrincipal">eCommerce Primero</h2>
+        <h2 class="tituloPrincipal">eCommerce DH</h2>
         <nav >
           <ul class="navegador">
               <li><a href="#">HOME</a></li>
