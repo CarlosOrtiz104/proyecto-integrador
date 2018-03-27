@@ -34,40 +34,10 @@
         </nav>
       </header>
       <section class="seccionPrincipal">
-        <div class="logColor">
-          <h3>Por favor, complete sus datos para el registro</h3>
-          <form class="" action="index.html" method="post">
-            <div class="form-group">
-              <label for="" class="labelForm">Nombre</label>
-              <input type="text" name="" value="" class="input-cris" required>
-            </div>
-            <div class="form-group">
-              <label for="" class="labelForm">Apellido</label>
-              <input type="text" name="" value="" class="input-cris" required>
-            </div>
-            <div class="form-group">
-              <label for="" class="labelForm">Email</label>
-              <input type="email" name="" value="" class="input-cris" required>
-            </div>
-            <div class="form-group">
-              <label for="" class="labelForm">Contraseña</label>
-              <input type="password" name="" value="" class="input-cris" required>
-            </div>
-            <div class="form-group">
-              <label for="" class="labelForm">Repita contraseña</label>
-              <input type="password" name="" value="" class="input-cris" required>
-            </div>
-            <br>
-            <div class="labelForm">
-              <button type="submit" name="button" class="btn btn-primary">Enviar</button>
-            </div>
-            <br>
-            <div class="labelForm">
-              <button type="reset" name="button" class="btn btn-primary">Reset</button>
-            </div>
-            <br>
-          </form>
-        </div>
+        <h3>Nosotros, qué hacemos</h3>
+        <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.</p>
+        <img src="" alt="">
+        <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.</p>
       </section>
       <footer class="piePag">
         <ul class="listaRedes">

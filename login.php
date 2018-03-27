@@ -35,16 +35,8 @@
       </header>
       <section class="seccionPrincipal">
         <div class="logColor">
-          <h3>Por favor, complete sus datos para el registro</h3>
+          <h3>Iniciar sesion</h3>
           <form class="" action="index.html" method="post">
-            <div class="form-group">
-              <label for="" class="labelForm">Nombre</label>
-              <input type="text" name="" value="" class="input-cris" required>
-            </div>
-            <div class="form-group">
-              <label for="" class="labelForm">Apellido</label>
-              <input type="text" name="" value="" class="input-cris" required>
-            </div>
             <div class="form-group">
               <label for="" class="labelForm">Email</label>
               <input type="email" name="" value="" class="input-cris" required>
@@ -53,17 +45,19 @@
               <label for="" class="labelForm">Contraseña</label>
               <input type="password" name="" value="" class="input-cris" required>
             </div>
-            <div class="form-group">
-              <label for="" class="labelForm">Repita contraseña</label>
-              <input type="password" name="" value="" class="input-cris" required>
+            <br>
+            <div class="labelForm">
+              <button type="submit" name="button" class="btn btn-primary">Ingresar</button>
             </div>
             <br>
             <div class="labelForm">
-              <button type="submit" name="button" class="btn btn-primary">Enviar</button>
+              <a href="#">Olvide mi contraseña</a>
             </div>
             <br>
             <div class="labelForm">
-              <button type="reset" name="button" class="btn btn-primary">Reset</button>
+              <label for="recuerdame">Recuerdame</label>
+              <br>
+              <input type="checkbox" name="" value="recuerdame" class="checkBox">
             </div>
             <br>
           </form>

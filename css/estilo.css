@@ -2,13 +2,69 @@
   box-sizing: border-box;
 }
 
+body {
+  background-image: url("../images/dust_scratches.png");
+}
+/*====================================================================*/
+/*============================CABECERA================================*/
+/*====================================================================*/
 .cabecera {
   display: flex;
   flex-wrap: wrap;
   background-color: #337ab7;
-  height: 152px;
-
+  height: 171px;
 }
+
+.cabecera img {
+  display: flex;
+  flex-wrap: nowrap;
+  width: 50px;
+  height: 50px;
+}
+
+.divTituloPrincipal {
+  padding: 5px;
+  display: flex;
+  flex-wrap: nowrap;
+  justify-content: center;
+  height: 60px;
+  margin-left: 5%;
+  margin-right: 5%;
+  width: 90%;
+}
+.divLogo {
+  width: 10%;
+}
+
+.tituloPrincipal {
+
+  margin: 0;
+  color: white;
+  text-align: center;
+  width: 100%;
+  line-height: 70px;
+}
+
+.miCuenta {
+  width: 100%;
+  border-top: 1px solid #66afe9;
+  display: flex;
+  justify-content: center;
+}
+
+.miCuenta a {
+  color: white;
+  font-size: 15px;
+}
+/*MAINBODY*/
+.seccionPrincipal {
+  width: 100%;
+}
+
+/*====================================================================*/
+/*============================FOOTER==================================*/
+/*====================================================================*/
+
 .piePag {
   display: flex;
   background-color: #66afe9;
@@ -20,7 +76,10 @@
   padding: 0;
   display: flex;
   flex-wrap: wrap;
+}
 
+h2 {
+  margin-right: 0;
 }
 
 .listaRedes li {
@@ -29,23 +88,50 @@
   list-style-type: none;
 }
 
+.listaRedes li:before {
+  content: "\f082";
+}
+
+/*====================================================================*/
+/*============================FORMULARIOS=============================*/
+/*====================================================================*/
+
+
+
+.logColor {
+  background-color: #efefef;
+  width: 90%;
+  margin: 20px 5%;
+  border: 1px solid #fff;
+}
+
+.logColor h3 {
+  padding-top: 20px;
+}
+
 .input-cris {
-  margin-left: 15%;
+  margin-left: 10%;
   display: block;
-  width: 70%;
+  width: 80%;
   height: 50px;
   padding: 6px 12px;
-  font-size: 14px;
+  font-size: 17px;
   line-height: 1.42857143;
   color: #555;
-  background-color: #fff;
+  background-color: #efefef;
   box-shadow: none;
   border: none;
-  border-bottom: 1px solid #555;
+  border-bottom: 1px solid #e0e0e0;
 }
 
 .input-cris:hover {
   border-color: #66afe9;
+}
+
+.input-cris:focus {
+  box-shadow: none;
+  border: none;
+  border-bottom: 1px solid #66afe9;
 }
 
 .form-group {
@@ -64,14 +150,16 @@ h3 {
   margin-bottom: 40px;
 }
 
-.tituloPrincipal {
-  color: white;
-  text-align: center;
-  width: 100%;
-  line-height: 30px;
+.checkBox {
+  width: 20px;
+  height: 20px;
 }
+/*====================================================================*/
+/*============================NAVEGADOR===============================*/
+/*====================================================================*/
 
 .navegador {
+  width: 100%;
   display: flex;
   flex-wrap: wrap;
   padding: 0;
@@ -81,24 +169,196 @@ h3 {
 
 
 .navegador li {
-  margin: 4px 0;
+  margin: 2.5px 0;
   height: 40px;
   text-align: center;
-  width: 49%;
+  width: 50%;
   background-color: #66afe9;
 }
 
-.navegador li:nth-child(even) {
-  margin-left: 2%;
-}
 
 .navegador li a {
+  width: 90%;
   color: white;
   font-weight: bold;
   line-height: 40px;
-  padding: 8px 25%;
+  padding: 12px 25%;
 }
 
 nav {
+  margin-top: 1px;
   width: 100%;
+}
+
+.navegadorDrop {
+  z-index: 20;
+  width: 100%;
+  float: left;
+  display: none;
+  flex-wrap: wrap;
+  padding: 0;
+  flex-direction: column;
+  list-style-type: none;
+}
+
+.navegadorDrop:hover {
+  display: inline;
+}
+
+.btn-primary {
+  width: 75%;
+}
+
+.navegador li a:hover {
+  color: #337ab7;
+  text-decoration: none;
+}
+
+/*====================================================================*/
+/*============================PRODUCTOS===============================*/
+/*====================================================================*/
+
+.contenedorProductos {
+  width: 100%;
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+}
+
+.productos {
+  display: flex;
+  justify-content: center;
+  flex-direction: column;
+  flex-wrap: nowrap;
+  width: 310px;
+  margin: 3px 0;
+  border: 1px solid #e0e0e0;
+
+}
+
+.productoImg {
+  transform: translate(-50%, -50%);
+  position: relative;
+  top: 157px;
+  left: 50%;
+  width: 310px;
+  height: 310px;
+  margin: -3px 0;
+  border: 1px solid #e0e0e0;
+}
+
+.descripcionProducto {
+  width: 100%;
+  border-right: 1px solid #e0e0e0;
+}
+
+.verMas {
+  width: 100%;
+}
+
+.verMas ul li {
+  float: left;
+  margin-top: 5px;
+  height: 37px;
+  width: 154px;
+  list-style-type: none;
+  background-color: #66afe9;
+  text-align: center;
+  line-height: 37px;
+}
+
+.verMas ul li a {
+  color: white;
+}
+
+.verMas ul {
+  padding: 0;
+}
+
+.tituloYmas {
+  display: flex;
+  flex-wrap: nowrap;
+  flex-direction: row;
+}
+/*====================================================================*/
+/*======================RESPONSIVE====================================*/
+/*========================TABLET======================================*/
+@media (min-width : 667px) {
+
+/*HEAD Y NAV======================================*/
+  .navegador {
+    justify-content: center;
+  }
+
+  .navegador li {
+    width: 23%;
+    margin: 0 1%;
+  }
+
+
+/*FORMULARIOS======================================*/
+
+  .input-cris {
+    width: 35%;
+    margin-left: 32.5%;
+  }
+
+  .btn-primary {
+    width: 25%;
+  }
+  /*PRODUCTOS======================================*/
+
+  .contenedorProductos {
+    flex-wrap: wrap;
+    margin: 0;
+    justify-content: space-between;
+  }
+
+  .productos {
+    border: 1px solid #e0e0e0;
+    margin: 5px 0;
+    width: 310px;
+  }
+
+  .productos:nth-child(even) {
+    margin-left: 2%;
+  }
+
+}
+
+@media (min-width : 720px) {
+  .cabecera {
+    border: 1px solid #337ab7;
+    border-radius: 20px 20px 0px 0px;
+    height: 155px;
+  }
+
+  .container {
+    margin-top: 20px;
+  }
+
+  .piePag {
+    border: 1px solid #66afe9;
+    border-radius: 0px 0px 20px 20px;
+    margin-bottom: 20px;
+  }
+}
+
+/*====================================================================*/
+/*======================RESPONSIVE====================================*/
+/*========================LAPTOP======================================*/
+@media (min-width : 1024px) {
+
+  .productos {
+    width: 310px;
+    margin: 10px 0;
+  }
+
+  .productos:nth-child(even) {
+    margin-left: 0;
+  }
+
+  .productoImg {
+    margin: -3px 0px;
+  }
 }
