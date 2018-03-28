@@ -21,7 +21,7 @@
         </div>
         <div class="miCuenta">
           <a href="login.php">Mi cuenta</a>
-          <a href="#">|</a>
+          <p class="separadorCarrito">|</p>
           <a href="#"> Carrito</a>
         </div>
         <nav >
@@ -41,9 +41,9 @@
       </section>
       <footer class="piePag">
         <ul class="listaRedes">
-          <li>Facebook</li>
-          <li>Twitter</li>
-          <li>Instagram</li>
+          <li><span class="fab fa-facebook iconRedes"></span> Facebook</li>
+          <li><span class="fab fa-twitter iconRedes"></span>Twitter</li>
+          <li><span class="fab fa-instagram iconRedes"></span>Instagram</li>
         </ul>
       </footer>
     </div>

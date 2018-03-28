@@ -6,7 +6,7 @@
     <link rel="stylesheet" href="./css/estilo.css">
     <link rel="stylesheet" href="./bootstrap/css/bootstrap.css">
     <meta name="viewport" content="width=device-width, initial-scale=1">
-    <!--<link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.0.8/css/all.css" integrity="sha384-3AB7yXWz4OeoZcPbieVW64vVXEwADiYyAEhwilzWsLw+9FgqpyjjStpPnpBO8o8S" crossorigin="anonymous">-->
+    <link rel="stylesheet" href="./css/fontawesome-all.min.css">
   </head>
   <body>
     <!--CONTENEDOR CENTRADO CON BOOTSTRAP Y RESPONSIVE-->
@@ -23,7 +23,7 @@
         </div>
         <div class="miCuenta">
           <a href="login.php">Mi cuenta</a>
-          <p> --</p>
+          <p class="separadorCarrito">|</p>
           <a href="#"> Carrito</a>
         </div>
         <nav >
@@ -135,9 +135,9 @@
       <!--PIE DE PAGINA-->
       <footer class="piePag">
         <ul class="listaRedes">
-          <li>Facebook</li>
-          <li>Twitter</li>
-          <li>Instagram</li>
+          <li><span class="fab fa-facebook iconRedes"></span> Facebook</li>
+          <li><span class="fab fa-twitter iconRedes"></span>Twitter</li>
+          <li><span class="fab fa-instagram iconRedes"></span>Instagram</li>
         </ul>
       </footer>
     </div>
